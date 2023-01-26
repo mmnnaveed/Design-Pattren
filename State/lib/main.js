@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const MobileAlert_1 = require("./MobileAlert");
+const Silent_1 = require("./Silent");
+const Vibration_1 = require("./Vibration");
+const mobileAlert = new MobileAlert_1.MobileAlert();
+mobileAlert.state = new Silent_1.Silent();
+mobileAlert.alert();
+mobileAlert.state = new Vibration_1.Vibration();
+mobileAlert.alert();

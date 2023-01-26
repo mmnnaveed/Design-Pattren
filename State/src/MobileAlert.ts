@@ -10,4 +10,8 @@ export class MobileAlert{
     public set state(value: IMobileAlertState) {
         this._mobileAlertState = value;
     }
+
+    public alert(){
+        this._mobileAlertState.alert();
+    }
 }
