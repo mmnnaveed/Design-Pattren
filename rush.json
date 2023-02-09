@@ -393,5 +393,11 @@
       "packageName": "@design-patterns/builder",
       "projectFolder": "builder",
       "reviewCategory": "designPatterns"
-    }  ]
+    },
+    {
+      "packageName": "@design-patterns/Strategy",
+      "projectFolder": "Strategy",
+      "reviewCategory": "designPatterns"
+    }
+    ]
 }

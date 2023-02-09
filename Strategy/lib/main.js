@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const AsposeExtractor_1 = require("./AsposeExtractor");
+const Context_1 = require("./Context");
+const IronExtractor_1 = require("./IronExtractor");
+const context = new Context_1.Context();
+context.setStrategy(new IronExtractor_1.IronExtracor());
+context.executeStrategy();
+context.setStrategy(new AsposeExtractor_1.AsposeExtracor());
+context.executeStrategy();
