@@ -398,6 +398,12 @@
       "packageName": "@design-patterns/Strategy",
       "projectFolder": "Strategy",
       "reviewCategory": "designPatterns"
+    },
+    {
+      "packageName": "@design-patterns/pattern-test1",
+      "projectFolder": "PatternTest1",
+      "reviewCategory": "designPatterns"
     }
+   
     ]
 }
